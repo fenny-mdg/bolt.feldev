@@ -16,6 +16,9 @@ export default class GithubProvider extends BaseProvider {
   staticModels: ModelInfo[] = [
     { name: 'gpt-4o', label: 'GPT-4o', provider: 'Github', maxTokenAllowed: 8000 },
     { name: 'o1', label: 'o1-preview', provider: 'Github', maxTokenAllowed: 100000 },
+    { name: 'claude-3.7-sonnet-thought', label: 'Claude 3.7 Thinking', provider: 'Github', maxTokenAllowed: 90000 },
+    { name: 'claude-3.7-sonnet', label: 'Claude 3.7 Sonnet (Preview)', provider: 'Github', maxTokenAllowed: 90000 },
+    { name: 'gemini-2.0-flash-001', label: 'Gemini 2.0 Flash (Preview)', provider: 'Github', maxTokenAllowed: 128000 },
     { name: 'o1-mini', label: 'o1-mini', provider: 'Github', maxTokenAllowed: 8000 },
     { name: 'gpt-4o-mini', label: 'GPT-4o Mini', provider: 'Github', maxTokenAllowed: 8000 },
     { name: 'gpt-4-turbo', label: 'GPT-4 Turbo', provider: 'Github', maxTokenAllowed: 8000 },
